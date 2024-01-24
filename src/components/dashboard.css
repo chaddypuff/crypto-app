@@ -1,0 +1,42 @@
+.dashboard-container {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .crypto-table {
+    margin-top: 20px;
+  }
+  
+  .crypto-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .crypto-link:hover {
+    text-decoration: underline;
+    color: #004080;
+  }
+  
+  .crypto-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #28a745;
+  }
+  
+  .crypto-change {
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  
+  .crypto-change.positive {
+    color: #28a745;
+  }
+  
+  .crypto-change.negative {
+    color: #dc3545;
+  }
+  
